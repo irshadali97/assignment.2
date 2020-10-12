@@ -70,5 +70,35 @@ body {
   .last {
       font-size: 0.7rem;
       color: rgb(55, 115, 226);
-      margin-top: 10px;
+      margin-top: 20px;
+  }
+   .social-menu {
+       color:  rgb(55, 115, 226);
+       margin-top: 20px;
+       margin-left: 65opx;
+   }
+  .social-menu ul {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      display: flex;
+      
+  }
+
+  .social-menu ul li {
+      list-style: none;
+      margin: 0 15px;
+      color:  rgb(55, 115, 226);
+
+  }
+ /* .social-menu ul li a {
+      position: relative;
+      display: block;
+      width: 30px;
+      height: 30px;
+      border-radius: 40px;
+      background-color: white;
+      text-align: center;
+      transition: .6s;
+      box-shadow: 0 5px 4px rgba(0,0,0,.5);
+
   }
