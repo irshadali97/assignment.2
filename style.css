@@ -43,8 +43,10 @@ body {
     margin-top: 15px;
     height: 2.5rem;
     padding: 5px 10px;
-    border-radius: 15px;
+    border-radius: 25px;
+    border-width: thin;
     font-size: 0.7rem;
+    
 }
 .email {
     margin-left: 450px;
@@ -61,25 +63,16 @@ body {
       margin-top: 30px;
       margin-left: 450px;
       width: 400px;
-      height: 300px;
+      height: 250px;
   }
+ 
   footer {
-      margin-top: 20px;
+      margin-top: 25px;
       margin-left: 550px;
-  }
-  .last {
-      font-size: 0.7rem;
-      color: rgb(55, 115, 226);
-      margin-top: 20px;
-  }
-   .social-menu {
-       color:  rgb(55, 115, 226);
-       margin-top: 20px;
-       margin-left: 65opx;
-   }
+  } 
+   
   .social-menu ul {
       position: absolute;
-      transform: translate(-50%, -50%);
       display: flex;
       
   }
@@ -89,6 +82,11 @@ body {
       margin: 0 15px;
       color:  rgb(55, 115, 226);
 
+  }
+  .last {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      color: rgb(55, 115, 226); ;
   }
  /* .social-menu ul li a {
       position: relative;
